@@ -3,13 +3,14 @@
 
 \version "2.16.2"
 
+\include "portugues.ly"
+
 \include "page.ily"
 \include "melody.ily"
 \include "guitar-music.ily"
-\include "guitar-harmony.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Classical guitar score
+% Universal key score
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 #(set-global-staff-size 18)
@@ -27,7 +28,7 @@
       }
     }
     \new ChordNames {
-      \GuitarHarmony
+      \Harmony
     }
     \new Staff \with {
       \consists "Span_arpeggio_engraver"
