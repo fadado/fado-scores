@@ -12,10 +12,10 @@ LILYPOND=lilypond -dno-point-and-click \
 all: lead-sheet.pdf guitar.pdf
 	@echo 'Bem feito!'
 
-lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
+lead-sheet.pdf: lead-sheet.ly page.ily melody.ily
 	@$(LILYPOND) $<
 
-guitar.pdf: guitar.ly page.ily melody.ily harmony.ily
+guitar.pdf: guitar.ly page.ily melody.ily guitar-music.ily
 	@$(LILYPOND) $<
 
 clean:

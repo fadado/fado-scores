@@ -13,6 +13,7 @@ Melody = \relative do' {
   %\partial 8 mi8 |
   s2 s4 s8 mi8
   \repeat volta 2 {
+    \set Score.currentBarNumber = #1
     sol4 \times 2/3 { sol8 sol sol } sol4 \times 2/3 { sol8 sol fas } |
     sol8 fas8~ fas2 r8 fas8 |
     la4 \times 2/3 { la8 la la } la4 \times 2/3 { la8 la sol } |
