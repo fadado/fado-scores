@@ -25,7 +25,6 @@ Melody = \relative do' {
     do4 \times 2/3 { do8 do do } do4 \times 2/3 { si8 la sol } |
     sol8 fas~ fas2 r8 sol |
     fas4 \times 2/3 { sol8 la do } si4 \times 2/3 { la8 fas res }
-
   }
   \alternative {
     { mi4 r4 r2 }

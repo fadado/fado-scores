@@ -25,10 +25,10 @@
     \new Staff \with {
     } <<
       \Stave
+      \new Voice \Breaks
       \new Voice {
 	\Melody
       }
-      \new Voice \Breaks
     >>
   }
   \layout {

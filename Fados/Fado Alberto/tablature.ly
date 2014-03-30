@@ -10,6 +10,7 @@
 \include "melody.ily"
 \include "harmony.ily"
 \include "guitar-music.ily"
+\include "guitar-harmony.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %  Tablature score
