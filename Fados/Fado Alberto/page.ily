@@ -39,13 +39,4 @@ Tablature = {
   \time 4/4
 }
 
-% Macros
-
-DalSegno = {
-  \once \override Score.RehearsalMark #'break-visibility = #begin-of-line-invisible
-  \once \override Score.RehearsalMark #'self-alignment-X = #RIGHT  
-  \once \override Score.RehearsalMark #'font-size = #-1
-  \mark \markup { \italic \bold "D.S." }
-}
-
 % EOF

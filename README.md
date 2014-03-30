@@ -8,7 +8,7 @@ Several kinds of scores are published in this repository:
  * For each fado there is a file named `universal.md` presenting a _score_ for
    the fado in [universal key notation](Notation.md).
  * Lilypond versions in lead sheet format are expected for each fado.
- * Guitar arrangements will also be published.
+ * Guitar arrangements will also be published, also in tablature notation.
  * Other versions will be hopefully provided in the future.
 
 The scores for the fados in PDF format are available in a

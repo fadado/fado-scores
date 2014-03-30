@@ -1,59 +1,61 @@
 % Fado Alberto
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
-\version "2.16.2"
-
-\include "portugues.ly"
+\include "predefined-guitar-fretboards.ly"
 
 \include "page.ily"
 \include "melody.ily"
 \include "guitar-music.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Classical guitar score
+%  Tablature score
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-#(set-global-staff-size 18)
+#(set-global-staff-size 16)
 
 \header {
   instrument = "Guitar"
 }
 
 \score {
-  \new StaffGroup <<
-    \new Staff {
-      \new Voice {
-	\Stave
-	\Melody
-      }
-    }
+  \simultaneous {
     \new ChordNames {
       \Harmony
     }
-    \new Staff \with {
+    \new FretBoards {
+      \Harmony
+    }
+    \new TabStaff \with {
+      \consists "Volta_engraver"
+    } {
+      \Tablature
+      \transpose do' do {
+	\Melody
+      }
+    }
+    \new TabStaff \with {
+      \consists "Volta_engraver"
       \consists "Span_arpeggio_engraver"
     } <<
       \set Staff.connectArpeggios = ##t
-      \Stave
-      \clef "treble_8"
-      \new Voice {
+      \Tablature
+      \new TabVoice {
 	\voiceOne
 	\Chords
       }
-      \new Voice {
+      \new TabVoice {
 	\voiceTwo
 	\Bass
       }
     >>
-  >>
+  }
   \layout {
-    \context { \Voice
-      %\remove "Fingering_engraver"
-      %\remove "New_fingering_engraver"
+    \context { \Score
+      \remove "Volta_engraver"
     }
     \context { \ChordNames
-      %\override ChordName #'font-size = #-3
     }
+    \tabFullNotation
     indent = 0.0\cm
   }
   %\midi { }
