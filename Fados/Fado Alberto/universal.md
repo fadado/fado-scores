@@ -17,7 +17,7 @@
 ## Variation 1
 
 ```
-[:i             | V7            |               | i              ]
+[:i   /  / VI   | V7            |               | i              ]
 [ I7            | iv            | VII7          | III            ]
 [ VI  / /  II-7 | V7  /  / ii*7 | VI9 ii% V7  / | i             :] D.C.
                                                 | i   V7  i  /   ] Fine
