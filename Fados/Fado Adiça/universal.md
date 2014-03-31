@@ -12,7 +12,7 @@
 [ I    | ii    | V7     | I        ]
 [ I    | V7    |   %    | I        ]
 [ I    | V7    |   %    | I       :] D.C.
-                          I V7 I / ] Fine
+                          I    V7  | I  / ] Fine
 ```
 
 <!--
