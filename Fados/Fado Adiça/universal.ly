@@ -35,7 +35,7 @@ Strumming = \relative do' {
   }
   \alternative {
     { do4 r4 }
-    { do8 do8 do4 \bar "|." }
+    { do4 do4 | do2 \bar "|." }
   }
 }
 
@@ -45,7 +45,7 @@ GuideA = \notemode {
   do2 do2 do2 do2
   do2 do2 s2 do2
   do2 do2 s2 do2
-  do8 do8 do2
+  do4 do4 do2
 }
 
 SymbolsA = \lyricmode {

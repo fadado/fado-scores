@@ -14,13 +14,13 @@ all:  universal.pdf
 	@echo 'Bem feito!'
 
 #lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
-	#@$(LILYPOND) $<
+#@$(LILYPOND) $<
 
 #guitar.pdf: guitar.ly page.ily melody.ily guitar-music.ily guitar-harmony.ily
-	#@$(LILYPOND) $<
+#@$(LILYPOND) $<
 
 #tablature.pdf: tablature.ly page.ily melody.ily harmony.ily guitar-music.ily guitar-harmony.ily
-	#@$(LILYPOND) $<
+#@$(LILYPOND) $<
 
 universal.pdf: universal.ly page.ily
 	@$(LILYPOND) $<

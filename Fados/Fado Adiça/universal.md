@@ -5,14 +5,14 @@
 <dt>Scale</dt><dd>major</dd>
 </dl>
 
-## ...???
+## As published in «O livro dos fados» ???????????
 
 ```
 [:I    | ii    | V7     | I        ]
 [ I    | ii    | V7     | I        ]
 [ I    | V7    |   %    | I        ]
 [ I    | V7    |   %    | I       :] D.C.
-                          I V7 I / ] Fine
+                          I    V7  | I  / ] Fine
 ```
 
 <!--
