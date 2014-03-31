@@ -1,4 +1,4 @@
-% Fado Alberto
+% Fado Adiça
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
 \version "2.16.2"
@@ -19,7 +19,7 @@
 }
 
 \header {
-  title = "Fado Alberto"
+  title = "Fado Adiça"
   composer = "Fado tradicional"
   copyright = ##f
   tagline = ##f
@@ -27,16 +27,16 @@
 
 Stave = {
   \clef treble
-  \key mi \minor
+  \key do \major
   \numericTimeSignature
-  \time 4/4
+  \time 2/4
 }
 
 Tablature = {
   \clef tab
-  \key mi \minor
+  \key do \major
   \numericTimeSignature
-  \time 4/4
+  \time 2/4
 }
 
 % EOF
