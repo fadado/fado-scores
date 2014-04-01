@@ -29,7 +29,7 @@
       %\italianChords \Harmony
     }
     \new FretBoards {
-      \Harmony
+      \GuitarHarmony
     }
     \new TabStaff \with {
       %\consists "Volta_engraver"
