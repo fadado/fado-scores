@@ -5,7 +5,7 @@
 <dt>Scale</dt><dd>minor</dd>
 </dl>
 
-## As published in «O livro dos fados»
+## Simple harmony
 
 ```
 [:i             | V7            |               | i              ]
@@ -14,7 +14,7 @@
                                                 | i   V7  i  /   ] Fine
 ```
 
-## Variation 1
+## Enhanced harmony
 
 ```
 [:i   /  / VI   | V7            |               | i              ]
