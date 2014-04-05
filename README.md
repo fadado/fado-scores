@@ -13,7 +13,7 @@ Several kinds of scores are published in this repository:
  * Other versions will be hopefully provided in the future.
 
 The scores for the fados in PDF format are available to
-[download](https://sites.google.com/site/olivrodosfados/scores).
+[download](https://sites.google.com/site/hafadonointernet/scores).
 
 Fados
 -----
