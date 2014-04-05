@@ -12,8 +12,8 @@ Several kinds of scores are published in this repository:
  * Guitar arrangements will also be published, also in tablature notation.
  * Other versions will be hopefully provided in the future.
 
-The scores for the fados in PDF format are available in a
-[companion web site](https://sites.google.com/site/olivrodosfados/scores).
+The scores for the fados in PDF format are available to
+[download](https://sites.google.com/site/olivrodosfados/scores).
 
 Fados
 -----
