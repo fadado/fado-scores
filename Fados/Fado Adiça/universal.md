@@ -5,7 +5,7 @@
 <dt>Scale</dt><dd>major</dd>
 </dl>
 
-## As published in «O livro dos fados» ???????????
+## Simple harmony
 
 ```
 [:I    | ii    | V7     | I        ]

@@ -1,7 +1,7 @@
-O Livro dos Fados
-=================
+Há Fado no Internet
+===================
 
-Scores for traditional fados in «O Livro dos Fados» book.
+Scores for traditional fados.
 
 Several kinds of scores are published in this repository:
 
