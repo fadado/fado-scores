@@ -28,7 +28,7 @@ Chords = \relative do' {
   \repeat volta 2 {
     r8 <sol do mi> r8 <sol do sol'> | r8 <la re fa>~ <la re fa> r8 | r8 <sol si fa'> r8 <fa sol re'> | r8 <sol do mi>~ <sol do mi> r8 |
     r8 <sol do mi> r8 <sol do sol'> | r8 <la re fa>~ <la re fa> r8 | r8 <sol si fa'> r8 <fa sol re'> | r8 <sol do mi>~ <sol do mi> r8 |
-    r8 <sol do mi> r8 <sol do mi>   | r8 <sol si fa'>~ <sol si fa'> r8 | r8 <sol si fa'> r8 <fa sol re'> | r8 <sol do mi>~ <sol do mi> r8 |
+    r8 <sol do mi> r8 <sol do mi>   | r8 <sol si fa'>~ <sol si fa'> r8 | r8 <sol si fa'> r8  <sol si fa'> | r8 <sol do mi>~ <sol do mi> r8 |
     r8 <sol do mi> r8 <sol do mi>   | r8 <sol si fa'>~ <sol si fa'> r8 | r8 <sol si fa'> r8 <sol si fa'> |
   }
   \alternative {
