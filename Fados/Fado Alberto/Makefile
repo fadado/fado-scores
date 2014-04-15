@@ -9,7 +9,7 @@ LILYPOND=lilypond -dno-point-and-click \
 		  -ddelete-intermediate-files \
 		  -drelative-includes
 
-all: lead-sheet.pdf guitar.pdf tablature.pdf universal.pdf
+all: lead-sheet.pdf guitar.pdf tablature-guitar.pdf universal.pdf
 	@echo 'Bem feito!'
 
 lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
@@ -18,7 +18,7 @@ lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
 guitar.pdf: guitar.ly page.ily melody.ily guitar-music.ily guitar-harmony.ily
 	@$(LILYPOND) $<
 
-tablature.pdf: tablature.ly page.ily melody.ily harmony.ily guitar-music.ily guitar-harmony.ily
+tablature-guitar.pdf: tablature-guitar.ly page.ily melody.ily harmony.ily guitar-music.ily guitar-harmony.ily
 	@$(LILYPOND) $<
 
 universal.pdf: universal.ly page.ily
