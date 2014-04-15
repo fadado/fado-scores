@@ -20,7 +20,8 @@
 
 \header {
   title = "Fado Alberto"
-  composer = "Fado tradicional"
+  composer = "Miguel Ramos"
+  poet = "Sextilhas – Decassílabo"
   copyright = ##f
   tagline = ##f
 }

@@ -5,12 +5,7 @@
 <dt>Scale</dt><dd>minor</dd>
 </dl>
 
-## ...???
-
-```
-```
-
-## Variation 1
+## Enhanced harmony
 
 ```
 [:i      VI;    | V7     ii*7   | V7   /  /   ii*7 | i           ]

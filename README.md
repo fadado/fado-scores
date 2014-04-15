@@ -1,28 +1,24 @@
-Há Fado no Internet
-===================
+Fado scores
+===========
 
 Scores for traditional fados.
 
 Several kinds of scores are published in this repository:
 
  * For each fado there is a file named `universal.md` presenting a _score_ for
-   the fado in [universal key notation](Notation.md). A rhytmic staff version
-   will be also provided.
- * Lilypond versions in lead sheet format are expected for each fado.
- * Guitar arrangements will also be published, also in tablature notation.
- * Other versions will be hopefully provided in the future.
+   the fado harmonic analysis in [universal key notation](Notation.md). 
+ * Lilypond versions in several formats are expected for each fado: lead sheet,
+   guitar arrangement (also in tablature notation) and rhytmic staff version for
+   the harmonic analysis.
 
 The scores for the fados in PDF format are available to
-[download](https://sites.google.com/site/hafadonointernet/scores).
+[download](https://sites.google.com/site/fadoscores/scores).
 
 Fados
 -----
 
-Fados with scores in diferent points of developement
-([Fado Alberto](Fados/Fado%20Alberto) is the template to start of):
+Completed fados:
 
 * [Fado Adiça](Fados/Fado%20Adiça)
 * [Fado Alberto](Fados/Fado%20Alberto)
-* [Fado Dois Tons](Fados/Fado%20Dois%20Tons)
-* [Fado Menor do Porto](Fados/Fado%20Menor%20do%20Porto)
 

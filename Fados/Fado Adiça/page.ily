@@ -20,7 +20,8 @@
 
 \header {
   title = "Fado Adiça"
-  composer = "Fado tradicional"
+  composer = "Armando Augusto Freire"
+  poet = "Quadras – Setessílabo"
   copyright = ##f
   tagline = ##f
 }
