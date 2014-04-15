@@ -18,7 +18,7 @@ lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
 guitar.pdf: guitar.ly page.ily melody.ily guitar-music.ily
 	@$(LILYPOND) $<
 
-tablature-guitar.pdf: tablature.ly page.ily melody.ily harmony.ily guitar-music.ily
+tablature-guitar.pdf: tablature-guitar.ly page.ily melody.ily harmony.ily guitar-music.ily
 	@$(LILYPOND) $<
 
 universal.pdf: universal.ly page.ily
