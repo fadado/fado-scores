@@ -1,7 +1,7 @@
 # Fado Adiça
 
 <dl>
-<dt>Time signature</dt><dd>2/4</dd>
+<dt>Time signature</dt><dd>4/4</dd>
 <dt>Scale</dt><dd>major</dd>
 </dl>
 

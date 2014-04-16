@@ -11,18 +11,18 @@
 
 Harmony = \chordmode {
   \set chordChanges = ##t
-  s2
+  s1
   \repeat volta 2 {
-   do2 re2:m sol2:7 do2
-   do2 sol2:7 sol2:7 do2
-   do2 sol2:7 sol2:7 do2
-   do2 sol2:7 sol2:7 
+   do1 re1:m sol1:7 do1
+   do1 sol1:7 sol1:7 do1
+   do1 sol1:7 sol1:7 do1
+   do1 sol1:7 sol1:7 
   }
   \alternative {
-    { do2 }
+    { do1 }
     { 
       \set chordChanges = ##f
-      do4 sol4:7 do2
+      do2 sol2:7 do1
     }
   }
 }

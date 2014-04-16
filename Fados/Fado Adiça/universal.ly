@@ -14,38 +14,38 @@
 % Desired measures for line
 Breaks = \notemode {
   \repeat volta 2 {
-    s2 * 4 \break
-    s2 * 4 \break
-    s2 * 4 \break
-    s2 * 3
+    s1 * 4 \break
+    s1 * 4 \break
+    s1 * 4 \break
+    s1 * 3
   }
   \alternative {
-    { s2 }
-    { s2 }
+    { s1 }
+    { s1 s1 }
   }
 }
 
 % Strumming rhythms
 Strumming = \relative do' {
   \repeat volta 2 {
-    do4 do4 | do4 do4 | do4 do4 | do4 do4 |
-    do4 do4 | do4 do4 | do4 do4 | do4 do4 |
-    do4 do4 | do4 do4 | do4 do4 | do4 do4 |
-    do4 do4 | do4 do4 | do4 do4 |
+    do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
+    do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
+    do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
+    do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
   }
   \alternative {
-    { do4 r4 }
-    { do4 do4 | do2 \bar "|." }
+    { do2 r2 }
+    { do2 do2 | do1 \bar "|." }
   }
 }
 
 % Pseudo lyrics
 GuideA = \notemode {
-  do2 do2 do2 do2
-  do2 do2 do2 do2
-  do2 do2 s2 do2
-  do2 do2 s2 do2
-  do4 do4 do2
+  do1 do1 do1 do1
+  do1 do1 do1 do1
+  do1 do1 s1 do1
+  do1 do1 s1 do1
+  do2 do2 do1
 }
 
 SymbolsA = \lyricmode {

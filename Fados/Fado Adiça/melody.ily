@@ -10,32 +10,32 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 Melody = \relative do'' {
-  s2
+  s1
   \repeat volta 2 {
     \set Score.currentBarNumber = #1
-    r8 mi16 mi mi re fa mi | re8 la4 r16 re | fa8. mi16 re8 si16 la | do8 sol4. |
-    r8 mi'16 mi mi re fa mi | re8 la4 r16 re | fa8. mi16 re8 si16 la | do8 sol4. |
-    r8 mi16 sol do mi do re | la8 sol4.     | r8 re'16 si sol la fa sol | mi8 sol4. |
-    r8 mi16 sol do mi do re | la8 sol4 r16 sol  | re'8. si16 sol8 la16 si |
+    r4 mi8 mi mi re fa mi | re4 la2 r8 re | fa4. mi8 re4 si8 la | do4 sol2. |
+    r4 mi'8 mi mi re fa mi | re4 la2 r8 re | fa4. mi8 re4 si8 la | do4 sol2. |
+    r4 mi8 sol do mi do re | la4 sol2.     | r4 re'8 si sol la fa sol | mi4 sol2. |
+    r4 mi8 sol do mi do re | la4 sol2 r8 sol  | re'4. si8 sol4 la8 si |
   }
   \alternative {
-    { do4 r4 }
-    { do4 r4 r2 \bar "|." }
+    { do2 r2 }
+    { do2 r2 r1 \bar "|." }
   }
 }
 
 % Desired measures for line
 Breaks = \notemode {
-  s2
+  s1
   \repeat volta 2 {
-    s2 * 4 \break
-    s2 * 4 \break
-    s2 * 4 \break
-    s2 * 3
+    s1 * 4 \break
+    s1 * 4 \break
+    s1 * 4 \break
+    s1 * 3
   }
   \alternative {
-    { s2 }
-    { s2 s2 }
+    { s1 }
+    { s1 s1 }
   }
 }
 

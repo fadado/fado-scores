@@ -10,33 +10,33 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 Bass = \relative do {
-  s8 sol[ la si] |
+  s4 sol la si |
   \repeat volta 2 {
-    do4 mi | re la8 lab | sol4 si | do mi,8 sol |
-    do4 mi | re la8 lab | sol4 si | do mi,8 sol |
-    do4 sol | re' si8 la | sol4 si | do mi,8 sol |
-    do4 sol | re' si8 la | sol4 sol |
+    do2 mi | re la4 lab | sol2 si | do mi,4 sol |
+    do2 mi | re la4 lab | sol2 si | do mi,4 sol |
+    do2 sol | re' si4 la | sol2 si | do mi,4 sol |
+    do2 sol | re' si4 la | sol2 sol |
   }
   \alternative {
-    { do8\arpeggio sol[ la si] ] }
-    { do4 sol\arpeggio do2\arpeggio }
+    { do4\arpeggio sol la si ] }
+    { do2 sol\arpeggio do1\arpeggio }
   }
 }
 
 Chords = \relative do' {
-  s2
+  s1
   \repeat volta 2 {
-    r8 <sol do mi> r8 <sol do sol'> | r8 <la re fa>~ <la re fa> r8 | r8 <sol si fa'> r8 <fa sol re'> | r8 <sol do mi>~ <sol do mi> r8 |
-    r8 <sol do mi> r8 <sol do sol'> | r8 <la re fa>~ <la re fa> r8 | r8 <sol si fa'> r8 <fa sol re'> | r8 <sol do mi>~ <sol do mi> r8 |
-    r8 <sol do mi> r8 <sol do mi>   | r8 <sol si fa'>~ <sol si fa'> r8 | r8 <sol si fa'> r8  <sol si fa'> | r8 <sol do mi>~ <sol do mi> r8 |
-    r8 <sol do mi> r8 <sol do mi>   | r8 <sol si fa'>~ <sol si fa'> r8 | r8 <sol si fa'> r8 <sol si fa'> |
+    r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |
+    r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |
+    r4 <sol do mi> r4 <sol do mi>   | r4 <sol si fa'>~ <sol si fa'> r4 | r4 <sol si fa'> r4  <sol si fa'> | r4 <sol do mi>~ <sol do mi> r4 |
+    r4 <sol do mi> r4 <sol do mi>   | r4 <sol si fa'>~ <sol si fa'> r4 | r4 <sol si fa'> r4 <sol si fa'> |
   }
   \alternative {
-    { <sol do mi>8\arpeggio r8 r4 }
+    { <sol do mi>4\arpeggio r4 r2 }
     {
-      <sol do mi>4
-      <si, re sol si fa'>4\arpeggio
-      <mi sol do mi>2\arpeggio
+      <sol do mi>2
+      <si, re sol si fa'>2\arpeggio
+      <mi sol do mi>1\arpeggio
     }
   }
 }

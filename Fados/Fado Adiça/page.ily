@@ -30,14 +30,14 @@ Stave = {
   \clef treble
   \key do \major
   \numericTimeSignature
-  \time 2/4
+  \time 4/4
 }
 
 Tablature = {
   \clef tab
   \key do \major
   \numericTimeSignature
-  \time 2/4
+  \time 4/4
 }
 
 % EOF
