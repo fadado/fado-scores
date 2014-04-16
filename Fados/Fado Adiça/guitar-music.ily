@@ -18,7 +18,7 @@ Bass = \relative do {
     do2 sol | re' si4 la | sol2 sol |
   }
   \alternative {
-    { do4\arpeggio sol la si ] }
+    { do4\arpeggio sol la si }
     { do2 sol\arpeggio do1\arpeggio }
   }
 }
