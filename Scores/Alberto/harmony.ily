@@ -13,15 +13,15 @@ Harmony = \chordmode {
   \set chordChanges = ##t
   \skip 1
   \repeat volta 2 {
-   mi1:m si1:7 si1:7 mi1:m
-   mi1:7 la1:m re1:7 sol1
-   do1 si1:7 si1:7
+   fa1:m do1:7 do1:7 fa1:m
+   fa1:7 sib1:m mib1:7 lab1
+   reb1 do1:7 do1:7
   }
   \alternative {
-    { mi1:m }
+    { fa1:m }
     { 
       \set chordChanges = ##f
-      mi4:m si4:7 mi2:m
+      fa4:m do4:7 fa2:m
     }
   }
 }

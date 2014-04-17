@@ -13,15 +13,15 @@ GuitarHarmony = \chordmode {
   \set chordChanges = ##t
   \skip 1
   \repeat volta 2 {
-   mi2.:m do4 si1:7 si1:7 mi1:m
-   mi1:7 la1:m re1:7 sol1
-   do2. fas4:7.5- | si2.:7 fas4:dim7 | do4:9 fas4:m7.5- si2:7 |
+   fa2.:m reb4 do1:7 do1:7 fa1:m
+   fa1:7 sib1:m mib1:7 lab1
+   reb2. sol4:7.5- | do2.:7 sol4:dim7 | reb4:9 sol4:m7.5- do2:7 |
   }
   \alternative {
-    { mi1:m }
+    { fa1:m }
     { 
       \set chordChanges = ##f
-      mi4:m si4:7 mi2:m
+      fa4:m do4:7 fa2:m
     }
   }
 }

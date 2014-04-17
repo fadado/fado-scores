@@ -28,14 +28,14 @@
 
 Stave = {
   \clef treble
-  \key mi \minor
+  \key fa \minor
   \numericTimeSignature
   \time 4/4
 }
 
 Tablature = {
   \clef tab
-  \key mi \minor
+  \key fa \minor
   \numericTimeSignature
   \time 4/4
 }

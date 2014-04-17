@@ -9,26 +9,26 @@
 % Melody
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Melody = \relative do' {
-  %\partial 8 mi8 |
-  s2 s4 s8 mi8
+Melody = \relative reb' {
+  %\partial 8 fa8 |
+  s2 s4 s8 fa8
   \repeat volta 2 {
     \set Score.currentBarNumber = #1
-    sol4 \times 2/3 { sol8 sol sol } sol4 \times 2/3 { sol8 sol fas } |
-    sol8 fas8~ fas2 r8 fas8 |
-    la4 \times 2/3 { la8 la la } la4 \times 2/3 { la8 la sol } |
-    la8 sol~ sol2 r8 si |
-    mi4 \times 2/3 { mi8 mi re } si8 sols4 si16 do |
-    si32 do si16 la8~ la2 r8 la8 |
-    re4 \times 2/3 { re8 re re } mi4 \times 2/3 { re8 do si } |
-    la32 si la16 sol8~ sol2 r8 sol8 |
-    do4 \times 2/3 { do8 do do } do4 \times 2/3 { si8 la sol } |
-    sol8 fas~ fas2 r8 sol |
-    fas4 \times 2/3 { sol8 la do } si4 \times 2/3 { la8 fas res }
+    lab4 \times 2/3 { lab8 lab lab } lab4 \times 2/3 { lab8 lab sol } |
+    lab8 sol8~ sol2 r8 sol8 |
+    sib4 \times 2/3 { sib8 sib sib } sib4 \times 2/3 { sib8 sib lab } |
+    sib8 lab~ lab2 r8 do |
+    fa4 \times 2/3 { fa8 fa mib } do8 la4 do16 reb |
+    do32 reb do16 sib8~ sib2 r8 sib8 |
+    mib4 \times 2/3 { mib8 mib mib } fa4 \times 2/3 { mib8 reb do } |
+    sib32 do sib16 lab8~ lab2 r8 lab8 |
+    reb4 \times 2/3 { reb8 reb reb } reb4 \times 2/3 { do8 sib lab } |
+    lab8 sol~ sol2 r8 lab |
+    sol4 \times 2/3 { lab8 sib reb } do4 \times 2/3 { sib8 sol mi }
   }
   \alternative {
-    { mi4 r4 r2 }
-    { mi4 r4 r2 \bar "|." }
+    { fa4 r4 r2 }
+    { fa4 r4 r2 \bar "|." }
   }
 }
 

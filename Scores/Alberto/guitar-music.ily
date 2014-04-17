@@ -9,52 +9,52 @@
 % Classical guitar music bass and chords
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-Bass = \relative do {
-  s2 s8 si8 dos res |
+Bass = \relative reb {
+  s2 s8 do8 re mi |
   \repeat volta 2 {
-    mi4 si mi, do' |
-    si4 fas si la8 las |
-    si4 fas la si |
-    mi,8 mi' si sol mi si'[ sib la] |
+    fa4 do fa, reb' |
+    do4 mi,8 sol do4 sib8 si |
+    do4 sol mi sol |
+    fa8 fa' do lab fa do'[ dob sib] |
 
-    sols4 si sols mi |
-    la4 mi'8 do la si do dos |
-    re4 la fas mi8 fas |
-    sol4 si sol la8 si |
+    la4 do la fa |
+    sib4 fa'8 reb sib do reb re |
+    mib4 sib sol fa8 sol |
+    lab4 do lab sib8 do |
 
-    do4 sol do fas, |
-    si4 la8 las si4 fas |
-    do'4 fas,4 si fas8 si
+    reb4 lab reb sol, |
+    do4 mi,8 sol do4 sol |
+    reb'4 sol,4 do sol8 do
   }
   \alternative {
-    { mi,8 mi' si sol mi si'[ dos res] }
-    { mi,4\arpeggio si'\arpeggio mi,2\arpeggio }
+    { fa,8 fa' do lab fa do'[ re mi] }
+    { fa,4\arpeggio do'\arpeggio fa,2\arpeggio }
   }
 }
 
-Chords = \relative do {
+Chords = \relative reb {
   s1
   \repeat volta 2 {
-      r8 <sol' si mi> r8 <sol si mi> r8 <sol si mi> r8 <mi sol do>
-      r8 <res la' si> r8 <res la' si> r8 <res la' si> r4
-      r8 <res la' si> r8 <res la' si> r8 <res la' si> r8 <res la' si> 
-      r8 <mi~ sol si mi>8~ <mi sol si mi>4 <sol si mi>8 r8 r4
+      r8 <lab' do fa> r8 <lab do fa> r8 <lab do fa> r8 <fa lab reb>
+      r8 <mi sib' do> r4  r8 <mi sib' do> r4
+      r8 <mi sib' do> r8 <mi sib' do> r8 <mi sib' do> r8 <mi sib' do> 
+      r8 <fa~ lab do fa>8~ <fa lab do fa>4 <lab do fa>8 r8 r4
 
-      r8 <mi si' re> r8 <mi si' re> r8 <mi si' re> r8 <re sols si>
-      r8 <la' do mi>~ <mi la do mi>4 r2
-      r8 <fas do' re> r8 <fas do' re> r8 <re la' do> r4
-      r8 <re sol si> r8 <re sol si> r8 <sol si re> r4
+      r8 <fa do' mib> r8 <fa do' mib> r8 <fa do' mib> r8 <mib la do>
+      r8 <sib' reb fa>~ <fa sib reb fa>4 r2
+      r8 <sol reb' mib> r8 <sol reb' mib> r8 <mib sib' reb> r4
+      r8 <mib lab do> r8 <mib lab do> r8 <lab do mib> r4
 
-      r8 <mi sol do> r8 <mi sol do> r8 <mi sol do> r8 <mi sib' do>
-      r8 <res la' si>~ <res la' si>4 r8 <res la' si> r8 <mib la do>
-      r8 <mi sib' re> r8 <mi la do> r8 <res la' si> r8 <res la' si>
+      r8 <fa lab reb> r8 <fa lab reb> r8 <fa lab reb> r8 <fa si reb>
+      r8 <mi sib' do>~ <mi sib' do>4 r8 <mi sib' do> r8 <fab sib reb>
+      r8 <fa dob' mib> r8 <fa sib reb> r8 <mi sib' do> r8 <mi sib' do>
   }
   \alternative {
-    { r8 <mi sol si mi>8~ <mi sol si mi>4 <sol si mi>8 r8 r4 }
+    { r8 <fa lab do fa>8~ <fa lab do fa>4 <lab do fa>8 r8 r4 }
     {
-      <si, mi sol si mi>4\arpeggio
-      <res la' si fas'>4\arpeggio
-      <si mi sol si mi>2\arpeggio\laissezVibrer
+      <do, fa lab do fa>4\arpeggio
+      <mi sib' do mi>4\arpeggio
+      <do fa lab do fa>2\arpeggio\laissezVibrer
     }
   }
 }
