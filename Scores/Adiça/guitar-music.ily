@@ -10,7 +10,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 Bass = \relative do {
-  s4 sol la si |
+  s1 | fa4 r4 sol2 | si4.\arpeggio r8 fa4 r4 | mi sol, la si |
   \repeat volta 2 {
     do2 mi | re la4 lab | sol2 si | do mi,4 sol |
     do2 mi | re la4 lab | sol2 si | do mi,4 sol |
@@ -24,7 +24,10 @@ Bass = \relative do {
 }
 
 Chords = \relative do' {
-  s1
+  s4 mi8 sol do mi do re |
+  <si, re la'>4 <si fa' sol>4~ <si fa' sol> <si fa' sol>4 |
+  <fa' sol re'>4.\arpeggio si8 <si, re sol>4 la'8 si 
+  <do, mi do'>4 r2. |
   \repeat volta 2 {
     r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |
     r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |

@@ -23,10 +23,12 @@
     \new Staff {
       \new Voice {
 	\Stave
+	s1 * 3
 	\Melody
       }
     }
     \new ChordNames {
+      s1 * 3
       \Harmony
     }
     \new Staff \with {
@@ -35,7 +37,6 @@
       \set Staff.connectArpeggios = ##t
       \Stave
       \clef "treble_8"
-      \new Voice \Breaks
       \new Voice {
 	\voiceOne
 	\Chords
