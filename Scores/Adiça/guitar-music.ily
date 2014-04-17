@@ -13,7 +13,6 @@ Bass = \relative do {
   s4 sol la si |
   \repeat volta 2 {
     do2 mi | re la4 lab | sol2 si | do mi,4 sol |
-    do2 mi | re la4 lab | sol2 si | do mi,4 sol |
     do2 sol | re' si4 la | sol2 si | do mi,4 sol |
     do2 sol | re' si4 la | sol2 sol |
   }
@@ -26,7 +25,6 @@ Bass = \relative do {
 Chords = \relative do' {
   s1
   \repeat volta 2 {
-    r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |
     r4 <sol do mi> r4 <sol do sol'> | r4 <la re fa>~ <la re fa> r4 | r4 <sol si fa'> r4 <fa sol re'> | r4 <sol do mi>~ <sol do mi> r4 |
     r4 <sol do mi> r4 <sol do mi>   | r4 <sol si fa'>~ <sol si fa'> r4 | r4 <sol si fa'> r4  <sol si fa'> | r4 <sol do mi>~ <sol do mi> r4 |
     r4 <sol do mi> r4 <sol do mi>   | r4 <sol si fa'>~ <sol si fa'> r4 | r4 <sol si fa'> r4 <sol si fa'> |

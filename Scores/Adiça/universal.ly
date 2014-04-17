@@ -16,7 +16,6 @@ Breaks = \notemode {
   \repeat volta 2 {
     s1 * 4 \break
     s1 * 4 \break
-    s1 * 4 \break
     s1 * 3
   }
   \alternative {
@@ -30,7 +29,6 @@ Strumming = \relative do' {
   \repeat volta 2 {
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
-    do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
   }
   \alternative {
@@ -42,18 +40,12 @@ Strumming = \relative do' {
 % Pseudo lyrics
 GuideA = \notemode {
   do1 do1 do1 do1
-  do1 do1 do1 do1
   do1 do1 s1 do1
   do1 do1 s1 do1
   do2 do2 do1
 }
 
 SymbolsA = \lyricmode {
-  \markup \typewriter \medium I
-  \markup \typewriter \medium ii
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
-
   \markup \typewriter \medium I
   \markup \typewriter \medium ii
   \markup \typewriter \medium V7
