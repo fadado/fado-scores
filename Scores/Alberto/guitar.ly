@@ -23,10 +23,12 @@
     \new Staff {
       \new Voice {
 	\Stave
+	s1 * 2
 	\Melody
       }
     }
     \new ChordNames {
+      s1 * 2
       \GuitarHarmony
     }
     \new Staff \with {

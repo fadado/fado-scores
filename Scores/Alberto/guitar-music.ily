@@ -10,7 +10,9 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
 Bass = \relative reb {
-  s2 s8 do8 re mi |
+  do4 mi,8 sol do4 sol |
+  reb'4 sol,4 do sol8 do |
+  fa,8 fa' do lab fa do'8[ re mi] |
   \repeat volta 2 {
     fa4 do fa, reb' |
     do4 mi,8 sol do4 sib8 si |
@@ -33,9 +35,11 @@ Bass = \relative reb {
 }
 
 Chords = \relative reb {
-  s1
+  r8 <mi sib' do>~ <mi sib' do>4 r8 <mi sib' do> r8 <fab sib reb>
+  r8 <fa dob' mib> r8 <fa sib reb> r8 <mi sib' do> r8 <mi sib' do>
+  r8 <fa lab do fa>8~ <fa lab do fa>4 <lab do fa>8 r8 r4 
   \repeat volta 2 {
-      r8 <lab' do fa> r8 <lab do fa> r8 <lab do fa> r8 <fa lab reb>
+      r8 <lab do fa> r8 <lab do fa> r8 <lab do fa> r8 <fa lab reb>
       r8 <mi sib' do> r4  r8 <mi sib' do> r4
       r8 <mi sib' do> r8 <mi sib' do> r8 <mi sib' do> r8 <mi sib' do> 
       r8 <fa~ lab do fa>8~ <fa lab do fa>4 <lab do fa>8 r8 r4
