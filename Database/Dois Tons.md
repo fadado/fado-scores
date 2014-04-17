@@ -19,6 +19,19 @@ Meter
 
 ## Chord progression
 
+### Basic
+
+```
+2/2 m
+[:III       | VII7      |         | III            ]
+[ III       | VII7      |         | III     V7     ]
+[ i         | V7        |         | i              ]
+[ i         | V7        |         | i       VII7  :] D.C.
+                                  | i   V7  i      ] Fine
+```
+
+### Variation
+
 ```
 2/2 m
 [:III       | VII7      |         | III               ]
