@@ -14,6 +14,7 @@ Harmony = \chordmode {
   s1
   \repeat volta 2 {
    do1 re1:m sol1:7 do1
+   do1 re1:m sol1:7 do1
    do1 sol1:7 sol1:7 do1
    do1 sol1:7 sol1:7 
   }
