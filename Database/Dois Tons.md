@@ -1,13 +1,26 @@
 # Fado Dois Tons
 
-<dl>
-<dt>Time signature</dt><dd>2/4</dd>
-<dt>Scale</dt><dd>minor</dd>
-</dl>
+## Structure
 
-## Simple harmony
+Scale
+:   minor
+
+Time signature
+:   2/2
+
+Tempo
+:   60
+
+Strophe
+:   4 verses
+
+Meter
+:   7 syllables
+
+## Chord progression
 
 ```
+2/2 m
 [:III       | VII7      |         | III               ]
 [ III       | VII7      |         | III VI6   V7   /  ]
 [ i         | V7        |         | i                 ]
@@ -16,5 +29,5 @@
 ```
 
 <!--
-vim:syntax=markdown:tabstop=20
+vim:syntax=markdown:sw=4:ts=4:et
 -->

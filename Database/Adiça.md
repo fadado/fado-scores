@@ -1,13 +1,26 @@
 # Fado Adiça
 
-<dl>
-<dt>Time signature</dt><dd>4/4</dd>
-<dt>Scale</dt><dd>major</dd>
-</dl>
+## Structure
 
-## Simple harmony
+Scale
+:   major
+
+Time signature
+:   4/4
+
+Tempo
+:   110
+
+Strophe
+:   4 verses
+
+Meter
+:   7 syllables
+
+## Chord progression
 
 ```
+4/4 M
 [:I    | ii    | V7     | I        ]
 [ I    | ii    | V7     | I        ]
 [ I    | V7    |   %    | I        ]
@@ -15,6 +28,8 @@
                           I    V7  | I  / ] Fine
 ```
 
+**Important**: some singers omit the second line.
+
 <!--
-vim:syntax=markdown:tabstop=20
+vim:syntax=markdown:sw=4:ts=4:et
 -->

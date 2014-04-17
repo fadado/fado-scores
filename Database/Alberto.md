@@ -1,22 +1,38 @@
 # Fado Alberto
 
-<dl>
-<dt>Time signature</dt><dd>4/4</dd>
-<dt>Scale</dt><dd>minor</dd>
-</dl>
+## Structure
 
-## Simple harmony
+Scale
+:   minor
+
+Time signature
+:   4/4
+
+Tempo
+:   85
+
+Strophe
+:   6 verses
+
+Meter
+:   10 syllables
+
+## Chord progression
+
+### Basic
 
 ```
+4/4 m
 [:i             | V7            |               | i              ]
 [ I7            | iv            | VII7          | III            ]
 [ VI            | V7            |               | i             :] D.C.
                                                 | i   V7  i  /   ] Fine
 ```
 
-## Enhanced harmony
+### Variation
 
 ```
+4/4 m
 [:i   /  / VI   | V7            |               | i              ]
 [ I7            | iv            | VII7          | III            ]
 [ VI  / /  II-7 | V7  /  / ii*7 | VI9 ii% V7  / | i             :] D.C.
@@ -24,5 +40,5 @@
 ```
 
 <!--
-vim:syntax=markdown:tabstop=20
+vim:syntax=markdown:sw=4:ts=4:et
 -->
