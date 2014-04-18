@@ -101,8 +101,7 @@ SymbolsB = \lyricmode {
 #(set-global-staff-size 18)
 
 \markup \vspace #2
-
-\markup { \bold { Simple harmony } }
+\markup { \bold { Chord progression } }
 
 \score {
   \simultaneous {
@@ -130,7 +129,7 @@ SymbolsB = \lyricmode {
   }
 }
 
-\markup { \bold { Enhanced harmony } }
+\markup { \bold { Variation } }
 
 \score {
   \simultaneous {

@@ -76,9 +76,8 @@ SymbolsA = \lyricmode {
 
 #(set-global-staff-size 18)
 
-%\markup \vspace #2
-
-%\markup { \bold { Simple harmony } }
+\markup \vspace #2
+\markup { \bold { Chord progression } }
 
 \score {
   \simultaneous {
