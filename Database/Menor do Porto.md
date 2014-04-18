@@ -21,7 +21,14 @@ Meter
 
 ### Basic
 
-...
+```
+4/4 m
+[:i           | V7       |           | i         ]
+[ i           | V7       | iv7   V7  | i         ]
+[ VII7   VI   | V        | V7        | i         ]
+[ VII7   VI   | V        | V7        | i        :] D.C.
+                                       i V7 i /  ] Fine
+```
 
 ### Variation
 
