@@ -11,13 +11,13 @@ function make_index {
 			</head>
 			<frameset cols='200,*'>
 				<frame src='index-menu.html' name='menu' marginheight='8' marginwidth='8' scrolling='auto'/>
-				<frame src='Notation.html' name='content' marginheight='8' marginwidth='8' scrolling='auto'/>
+				<frame src='README.html' name='content' marginheight='8' marginwidth='8' scrolling='auto'/>
 			</frameset>
 		</html>
 HTML
 }
 
-function menu_header {
+function make_menu {
 	cat <<-HTML
 		<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
 		<html>
@@ -28,65 +28,64 @@ function menu_header {
 				<link rel="stylesheet" type="text/css" href="style.css"/>
 			</head>
 		<body>
+		<h1>Database</h1>
+		<ul>
+			<li><a href="README.html" target="content">Readme</a></li>
+			<li><a href="Notation.html" target="content">Notation</a></li>
+		</ul>
+		<hr/>
+		<h2>Fados</h2>
+		<ul>
 HTML
-}
 
-function content_header {
-	typeset TITLE=$1
+	for f in *.html
+	do
+		name=${f%.html}
+		[[ $name == 'Notation' || $name == 'README' ]] && continue
+		[[ $name == 'index' || $name == 'index-menu' ]] && continue
+		echo "<li><a target='content' href='$name.html'>$name</a></li>"
+	done
 
 	cat <<-HTML
-		<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Transitional//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'>
-		<html>
-			<head>
-				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
-				<title>$TITLE</title>
-				<link rel="stylesheet" type="text/css" href="style.css"/>
-			</head>
-		<body>
-HTML
-}
-
-# Genera peu per fitxers XHTML.
-function page_footer {
-	cat <<-HTML
+		</ul>
 		<hr/>
 		</body></html>
 HTML
 }
 
-function make_menu {
-	menu_header
+function make_page {
+	typeset MD=$1 NAME=${1%.md}
 
-	echo "<h1>Fados</h1>"
+	cat <<-HTML
+		<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+		<html>
+			<head>
+				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+				<title>${NAME##*/}</title>
+				<link rel="stylesheet" type="text/css" href="style.css"/>
+			</head>
+		<body>
+HTML
 
-	echo '<hr/><ul>'
+	pandoc -f markdown -t html "$MD";
 
-	for f in *.html
-	do
-		name=${f##*/}
-		[[ $name == Notation.html ]] && continue
-		name=${name%.html}
-		[[ $name == 'index' || $name == 'index-menu' ]] && continue
-		echo "<li><a target='content' href='$name.html'>$name</a></li>"
-	done
-
-	echo '</ul><hr/>'
-	echo '<ul><li><a href="Notation.html" target="content">Notation</a></li></ul>'
-	echo '</body></html>'
+	cat <<-HTML
+		</body></html>
+HTML
 }
 
-for f in *.md
-do
-	name=${f##*/}
-	name=${name%.md}
-	# MD => XHTML
-	(	content_header "$name";
-		pandoc -f markdown -t html "$f";
-		page_footer;
-	) > "${f%.md}.html"
-done
+########################################################################
+# Main
+########################################################################
 
+for md in *.md
+do
+	make_page "$md" > "${md%.md}.html"
+done
+make_page ../Notation.md > Notation.html
 make_index > index.html
 make_menu > index-menu.html
+
+#xmllint --noout --valid *.html
 
 # vim:sw=4:ts=4

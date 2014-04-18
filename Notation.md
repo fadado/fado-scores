@@ -13,6 +13,7 @@ the degree and quality. It is based in the concep of
 Score example from Fado Alberto:
 
 ```
+4/4 m
 [:i             | V7            |               | i              ]
 [ I7            | iv            | VII7          | III            ]
 [ VI  / /  II-7 | V7  /  / ii*7 | VI9 ii% V7  / | i             :] D.C.
