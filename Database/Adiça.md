@@ -8,9 +8,6 @@ Scale
 Time signature
 :   4/4
 
-Tempo
-:   110
-
 Strophe
 :   4 verses
 
@@ -18,7 +15,7 @@ Meter
 :   7 syllables
 
 Author
-:   Armando Augusto Freire
+:   Armando Augusto Freire (_Armandinho_)
 
 ## Chord progression
 

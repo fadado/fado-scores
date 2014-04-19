@@ -8,9 +8,6 @@ Scale
 Time signature
 :   4/4
 
-Tempo
-:   102
-
 Strophe
 :   4 verses
 
