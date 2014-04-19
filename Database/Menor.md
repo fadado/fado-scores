@@ -1,0 +1,34 @@
+# Fado Menor
+
+## Structure
+
+Scale
+:   minor
+
+Time signature
+:   2/4
+
+Tempo
+:   98
+
+Strophe
+:   4 verses
+
+Meter
+:   7 syllables
+
+Author
+:   Popular
+
+## Chord progression
+
+### Basic
+
+```
+2/4 minor
+[: i    |       | V7    |       |       |       | i     |       :]
+```
+
+<!--
+vim:syntax=markdown:sw=4:ts=4:et
+-->

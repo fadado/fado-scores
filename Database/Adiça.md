@@ -17,15 +17,18 @@ Strophe
 Meter
 :   7 syllables
 
+Author
+:   Armando Augusto Freire
+
 ## Chord progression
 
 ```
-4/4 M
+4/4 major
 [:I    | ii    | V7     | I        ]
 [ I    | ii    | V7     | I        ]
 [ I    | V7    |   %    | I        ]
 [ I    | V7    |   %    | I       :] D.C.
-                          I    V7  | I  / ] Fine
+                        | I    V7  | I  / ] Fine
 ```
 
 **Important**: some singers omit the second line.

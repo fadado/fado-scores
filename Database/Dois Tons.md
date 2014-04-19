@@ -17,12 +17,15 @@ Strophe
 Meter
 :   7 syllables
 
+Author
+:   Alberto Simões Costa
+
 ## Chord progression
 
 ### Basic
 
 ```
-2/2 m
+2/2 minor
 [:III       | VII7      |         | III            ]
 [ III       | VII7      |         | III     V7     ]
 [ i         | V7        |         | i              ]
@@ -33,7 +36,7 @@ Meter
 ### Variation
 
 ```
-2/2 m
+2/2 minor
 [:III       | VII7      |         | III               ]
 [ III       | VII7      |         | III VI6   V7   /  ]
 [ i         | V7        |         | i                 ]

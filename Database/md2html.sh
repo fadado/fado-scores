@@ -69,7 +69,11 @@ HTML
 
 	pandoc -f markdown -t html "$MD";
 
+	typeset N
+	[[ $NAME != *Notation ]] && N='<p<hr/>Check the <a href="Notation.html">notation</a> page for chords and score syntax.</p>'
+
 	cat <<-HTML
+		$N
 		</body></html>
 HTML
 }
