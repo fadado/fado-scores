@@ -44,7 +44,7 @@ function make_menu {
 				</style>
 			</head>
 		<body>
-		<h1>Database</h1>
+		<h1>Fados<br/>Database</h1>
 		<ul>
 			<li><a href="README.html" target="content">Readme</a></li>
 			<li><a href="Notation.html" target="content">Notation</a></li>
@@ -86,7 +86,7 @@ HTML
 	pandoc -f markdown -t html "$MD";
 
 	typeset N
-	[[ $NAME != *Notation ]] && N='<p<hr/>See the <a href="Notation.html">notation page</a> for chords and score syntax.</p>'
+	[[ $NAME != *Notation ]] && N='<hr/><p>See the <a href="Notation.html">notation page</a> for chords and score syntax.</p>'
 
 	cat <<-HTML
 		$N
