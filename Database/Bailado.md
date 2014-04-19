@@ -23,12 +23,12 @@ Author
 
 ```
 4/4	minor
-[ i     |           |       |         |       |           | V7    |          ]
-[ V7    |           |       | iv      | V7    |           | i     | /  / V7  ]
-[ i     |           |       |         | I7    |           | iv    |          ]
-[ iv    | iv6       | i     |         | V7    |           | i     |          ]
-[ iv    | iv6       | i     |         | V7    |           | i     |         :] D.C.
-                                                          | i  V7 | i        ] Fine
+[ i     |        |       |      |       |      | V7    |         ]
+[ V7    |        |       | iv   | V7    |      | i     | / / V7  ]
+[ i     |        |       |      | I7    |      | iv    |         ]
+[ iv    | iv6    | i     |      | V7    |      | i     |         ]
+[ iv    | iv6    | i     |      | V7    |      | i     |        :] D.C.
+                                               | i  V7 | i       ] Fine
 ```
 
 ### Variation

@@ -25,7 +25,23 @@ function make_menu {
 				<script type='text/javascript'>if(top==self){top.location.replace("index.html");}</script>
 				<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
 				<title>Fados</title>
-				<link rel="stylesheet" type="text/css" href="style.css"/>
+				<style type="text/css">
+					body {
+						font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+						font-size: 13px;
+						line-height: 18px;
+						color: #fff;
+						background: #282a36;
+					}
+					a {
+						color: #59acf3;
+						text-decoration: none;
+					}
+					a:hover {
+						color: #a7d8ff;
+						text-decoration: none;
+					}
+				</style>
 			</head>
 		<body>
 		<h1>Database</h1>
