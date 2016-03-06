@@ -66,7 +66,7 @@ SymbolsA = \lyricmode {
 
 GuideB = \notemode {
   do2. do4 do1 s1 do1
-  do1 do1 do1 do1
+  do1 do1 do2 do2 do1
   do2. do4 do2. do4 do4 do4 do2 do1
   do4 do4 do2
 }
@@ -80,10 +80,11 @@ SymbolsB = \lyricmode {
   \markup \typewriter \medium I7
   \markup \typewriter \medium iv
   \markup \typewriter \medium VII7
+  \markup \typewriter \medium VII7b
   \markup \typewriter \medium III
 
   \markup \typewriter \medium VI
-  \markup \typewriter \medium II-7
+  \markup \typewriter \medium II%
   \markup \typewriter \medium V7
   \markup \typewriter \medium ii*7
   \markup \typewriter \medium VI9

@@ -20,15 +20,15 @@ Author
 ## Chord progression
 
 ```
-4/4 major
-[:I    | ii    | V7     | I        ]
+4/4 M
 [ I    | ii    | V7     | I        ]
-[ I    | V7    |   %    | I        ]
-[ I    | V7    |   %    | I       :] D.C.
-                        | I    V7  | I  / ] Fine
+[ I    | ii    | V7     | I        ]
+[ I    | V7    |   /    | I        ]
+[ I    | V7    |   /    | I       :] D.C.
+~2                      | I    V7  | I  ]
 ```
 
-**Important**: some singers omit the second line.
+**Important**: some singers omit the second phrase.
 
 <!--
 vim:syntax=markdown:sw=4:ts=4:et

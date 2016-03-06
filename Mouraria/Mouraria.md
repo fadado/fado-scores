@@ -1,9 +1,9 @@
-# Fado Menor
+# Fado Mouraria
 
 ## Structure
 
 Scale
-:   minor
+:   major
 
 Time signature
 :   2/4
@@ -22,8 +22,8 @@ Author
 ### Basic
 
 ```
-2/4 minor
-[: i    |       | V7    |       |       |       | i     |       :]
+2/4 M
+[: I    |   /   | V7    |   /   |   /   |   /   | I     |       :]
 ```
 
 <!--

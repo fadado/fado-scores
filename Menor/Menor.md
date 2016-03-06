@@ -1,9 +1,9 @@
-# Fado Corrido
+# Fado Menor
 
 ## Structure
 
 Scale
-:   major
+:   minor
 
 Time signature
 :   2/4
@@ -22,8 +22,8 @@ Author
 ### Basic
 
 ```
-2/4 major
-[: I    |       | V7    |       |       |       | I     |       :]
+2/4 m
+[: i    |   /   | V7    |   /   |   /   |   /   | i     |       :]
 ```
 
 <!--

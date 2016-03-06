@@ -1,4 +1,4 @@
-# Fado Mouraria
+# Fado Corrido
 
 ## Structure
 
@@ -22,8 +22,8 @@ Author
 ### Basic
 
 ```
-2/4 major
-[: I    |       | V7    |       |       |       | I     |       :]
+2/4 M
+[: I    |   /   | V7    |   /   |   /   |   /   | I     |   /   :]
 ```
 
 <!--

@@ -3,13 +3,9 @@ Fado scores
 
 Scores for traditional fados.
 
-Several kinds of scores are published in this repository:
-
- * There is a [data base](Database) presenting a _score_ for
-   the harmonic analysis of all fados in [universal key notation](Notation.md). 
- * Lilypond versions in [several formats](Scores) are expected for each fado: lead sheet,
-   guitar arrangement (also in tablature notation) and rhytmic staff version for
-   the harmonic analysis.
+Lilypond versions in several formats are presented for each fado: lead
+sheet, guitar arrangement (also in tablature notation) and rhytmic staff
+version for the universal key chord notation.
 
 The scores for the fados in PDF format are available to
 [download](https://sites.google.com/site/fadoscores/scores).
