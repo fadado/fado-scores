@@ -20,7 +20,7 @@ Author
 ## Chord progression
 
 ```
-4/4 M
+2/4 M
 [ I    | ii    | V7     | I        ]
 [ I    | ii    | V7     | I        ]
 [ I    | V7    |   /    | I        ]

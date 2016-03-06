@@ -40,17 +40,12 @@ Author
 
 ```
 4/4 M
-[ I         | /      V7    | I        |           ]
-[ iii       | VI7          | ii       | /    VI7  ]
-[ ii        | V7           | ii6      | V7        ]
-[ IV        | V7           | I        | /    V7   ]
-
-[ I         | /      V7    | I        |           ]
-[ iii       | VI7          | ii       | /    VI7  ]
-[ ii        | V7           | I        | vi        ]
-[ II7       | V7           | I        | /    V7  :] D.C.
-                                      | iv        | I6    ]
-
+[ I    | /  V7b | I   |    /    | iii  | VI7b      | iib |  /  ]
+[ ii   | V7     | ii6 | V7      | IV   | V7        | I   |  /  ]
+$
+[ I    | /  V7  | I   |    /    | iii  | VI7b      | iib |  /  ]
+[ ii   | V7     | I   | vi  vi7 | II7  | V7>6  V7b | I   |  / :] ~1 D.C.  ~2 D.S.
+~3                                                 | I&9 I / / | iv / / iv6 | I6 ]
 ```
 
 <!--

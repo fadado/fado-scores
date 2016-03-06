@@ -33,12 +33,12 @@ Author
 ### Variation
 
 ```
-4/4 m
-[ i      VI$    | V7     ii*7   | V7   /  /   ii*7 | i           ]
-[ i      VI$    | V7     ii*7   | iv7     V7       | i           ]
-[ VII7   VI     | V7     ii%    | V7>6    #vii*7   | i           ]
-[ VII7   VI     | V7     ii%    | V7>6    #vii*7   | i          :] D.C.
-~2                                                 | i V7 ib&9 / ]
+2/4 m
+[ i      VI4+   | V7     ii*7   | V7  /  /  ii*7 | i       ]
+[ i      VI4+   | V7     ii*7   | iv7    V7      | i       ]
+[ VII7   VI     | V7     ii%    | V7>6-  #vii*7  | i       ]
+[ VII7   VI     | V7     ii%    | V7>6-  #vii*7  | i      :] D.C.
+~2                                               | i V7 ib&9 / ]
 ```
 
 <!--

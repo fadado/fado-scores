@@ -23,11 +23,11 @@ Author
 
 ```
 2/2 m
-[ III       | VII7      |    /    | III            ]
-[ III       | VII7      |    /    | III     V7     ]
-[ i         | V7        |    /    | i              ]
-[ i         | V7        |    /    | i       VII7  :] D.C.
-~2                                | i   V7  i      ]
+[ III       | VII7b     | VII7c   | III               ]
+[ III       | VII7b     | VII7c   | III VI6   V7   /  ]
+[ i         | V7b       | V7      | i                 ]
+[ i         | V7b       | V7      | i   @I4+ VII7  / :] D.C.
+~2                                | i   V7    i    /  ]
 ```
 
 ### Variation
