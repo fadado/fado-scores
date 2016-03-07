@@ -8,7 +8,6 @@
 
 \include "page.ily"
 \include "melody.ily"
-\include "harmony.ily"
 \include "guitar-music.ily"
 \include "guitar-harmony.ily"
 
@@ -25,11 +24,11 @@
 \score {
   \simultaneous {
     \new ChordNames {
-      \GuitarHarmony
+      \Harmony
       %\italianChords \Harmony
     }
     \new FretBoards {
-      \GuitarHarmony
+      \Harmony
     }
     \new TabStaff \with {
       %\consists "Volta_engraver"

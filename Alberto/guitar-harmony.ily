@@ -9,7 +9,7 @@
 % Guitar arrangement harmony
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-GuitarHarmony = \chordmode {
+Harmony = \chordmode {
   \set chordChanges = ##t
   \skip 1
   \repeat volta 2 {

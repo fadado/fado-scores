@@ -5,8 +5,8 @@
 
 \include "page.ily"
 \include "melody.ily"
-\include "harmony.ily"
 \include "guitar-music.ily"
+\include "guitar-harmony.ily"
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Classical guitar score

@@ -29,7 +29,7 @@
     }
     \new ChordNames {
       s1 * 2
-      \GuitarHarmony
+      \Harmony
     }
     \new Staff \with {
       \consists "Span_arpeggio_engraver"

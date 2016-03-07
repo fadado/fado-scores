@@ -3,30 +3,8 @@
 # Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 #
 
-.PHONY : all clean build
+include ../makefile.mak
 
-LILYPOND=lilypond -dno-point-and-click \
-		  -ddelete-intermediate-files \
-		  -drelative-includes
+# Warning: if harmony.ily changes guitar-harmony.ily must be touched
 
-all: universal.pdf lead-sheet.pdf guitar.pdf tablature-guitar.pdf
-	@echo 'Bem feito!'
-
-lead-sheet.pdf: lead-sheet.ly page.ily melody.ily harmony.ily
-	@$(LILYPOND) $<
-
-guitar.pdf: guitar.ly page.ily melody.ily guitar-music.ily
-	@$(LILYPOND) $<
-
-tablature-guitar.pdf: tablature-guitar.ly page.ily melody.ily harmony.ily guitar-music.ily
-	@$(LILYPOND) $<
-
-universal.pdf: universal.ly page.ily
-	@$(LILYPOND) $<
-
-clean:
-	@rm -f *.ps *.pdf *.log
-
-build: clean all
-
-# EOF
+# vim:noet:sw=4:ts=4:ai
