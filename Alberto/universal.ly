@@ -46,22 +46,22 @@ GuideA = \notemode {
 }
 
 SymbolsA = \lyricmode {
-  \markup \typewriter \medium i
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "i"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 
-  \markup \typewriter \medium I7
-  \markup \typewriter \medium iv
-  \markup \typewriter \medium VII7
-  \markup \typewriter \medium III
+  \markup \typewriter \medium "I7"
+  \markup \typewriter \medium "iv"
+  \markup \typewriter \medium "VII7"
+  \markup \typewriter \medium "III"
 
-  \markup \typewriter \medium VI
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "VI"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 
-  \markup \typewriter \medium i
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "i"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 }
 
 GuideB = \notemode {
@@ -72,29 +72,29 @@ GuideB = \notemode {
 }
 
 SymbolsB = \lyricmode {
-  \markup \typewriter \medium i
-  \markup \typewriter \medium VI
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "i"
+  \markup \typewriter \medium "VI"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 
-  \markup \typewriter \medium I7
-  \markup \typewriter \medium iv
-  \markup \typewriter \medium VII7
-  \markup \typewriter \medium VII7b
-  \markup \typewriter \medium III
+  \markup \typewriter \medium "I7"
+  \markup \typewriter \medium "iv"
+  \markup \typewriter \medium "VII7"
+  \markup \typewriter \medium "VII7b"
+  \markup \typewriter \medium "III"
 
-  \markup \typewriter \medium VI
-  \markup \typewriter \medium II%
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium ii*7
-  \markup \typewriter \medium VI9
-  \markup \typewriter \medium ii%
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "VI"
+  \markup \typewriter \medium "II%"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "ii*7"
+  \markup \typewriter \medium "VI9"
+  \markup \typewriter \medium "ii%"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 
-  \markup \typewriter \medium i
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium i
+  \markup \typewriter \medium "i"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "i"
 }
 
 % Score

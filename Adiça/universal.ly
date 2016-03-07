@@ -49,27 +49,27 @@ GuideA = \notemode {
 }
 
 SymbolsA = \lyricmode {
-  \markup \typewriter \medium I
-  \markup \typewriter \medium ii
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
+  \markup \typewriter \medium "I"
+  \markup \typewriter \medium "ii"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "I"
 
-  \markup \typewriter \medium I
-  \markup \typewriter \medium ii
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
+  \markup \typewriter \medium "I"
+  \markup \typewriter \medium "ii"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "I"
 
-  \markup \typewriter \medium I
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
+  \markup \typewriter \medium "I"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "I"
 
-  \markup \typewriter \medium I
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
+  \markup \typewriter \medium "I"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "I"
 
-  \markup \typewriter \medium I
-  \markup \typewriter \medium V7
-  \markup \typewriter \medium I
+  \markup \typewriter \medium "I"
+  \markup \typewriter \medium "V7"
+  \markup \typewriter \medium "I"
 }
 
 % Score
