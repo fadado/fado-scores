@@ -24,16 +24,19 @@
 \score {
   \simultaneous {
     \new ChordNames {
+	s1 * 2
       \Harmony
       %\italianChords \Harmony
     }
     \new FretBoards {
+	s1 * 2
       \Harmony
     }
     \new TabStaff \with {
       %\consists "Volta_engraver"
     } {
       \Tablature
+	s1 * 2
       \transpose do' do {
 	\Melody
       }
@@ -44,6 +47,7 @@
     } <<
       \set Staff.connectArpeggios = ##t
       \Tablature
+	s1 * 2
       \new TabVoice {
 	\voiceOne
 	\Chords

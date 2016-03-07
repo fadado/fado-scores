@@ -1,4 +1,4 @@
-% Fado Alberto
+% Fado Adiça
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
 \version "2.16.2"
@@ -24,16 +24,19 @@
 \score {
   \simultaneous {
     \new ChordNames {
+      s1 * 3
       \Harmony
       %\italianChords \Harmony
     }
     \new FretBoards {
+      s1 * 3
       \Harmony
     }
     \new TabStaff \with {
       %\consists "Volta_engraver"
     } {
       \Tablature
+      s1 * 3
       \transpose do' do {
 	\Melody
       }
@@ -44,6 +47,7 @@
     } <<
       \set Staff.connectArpeggios = ##t
       \Tablature
+      s1 * 3
       \new TabVoice {
 	\voiceOne
 	\Chords
