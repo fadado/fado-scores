@@ -5,4 +5,4 @@
 
 include ../makefile.mak
 
-# vim:noet:sw=4:ts=4:ai
+# vim:noet:sw=8:ts=8:ai

@@ -12,17 +12,17 @@
 
 # Build targets
 SCORES =	universal.pdf \
-			lead-sheet.pdf \
-			guitar.pdf \
-			tablature-guitar.pdf \
+		lead-sheet.pdf \
+		guitar.pdf \
+		tablature-guitar.pdf \
 
 # Options to lilypond
-# 	log levels: NONE, ERROR, WARNING, BASIC, PROGRESS, INFO, DEBUG
+#   log levels: NONE, ERROR, WARNING, BASIC, PROGRESS, INFO, DEBUG
 OPTIONS =	--define-default=no-point-and-click \
-			--define-default=delete-intermediate-files \
-			--define-default=relative-includes \
-			--pdf \
-			--loglevel=BASIC \
+		--define-default=delete-intermediate-files \
+		--define-default=relative-includes \
+		--pdf \
+		--loglevel=BASIC \
 
 ########################################################################
 # Pattern rules
@@ -69,4 +69,4 @@ clean:
 
 build: clean all
 
-# vim:noet:sw=4:ts=4:ai:syntax=make
+# vim:noet:sw=8:ts=8:ai:syntax=make
