@@ -1,9 +1,9 @@
 % Fado Alberto
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
-\version "2.16.2"
+\version "2.19.36"
+\language portugues
 
-\include "portugues.ly"
 \include "predefined-guitar-fretboards.ly"
 
 \include "page.ily"

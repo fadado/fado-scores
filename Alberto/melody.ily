@@ -1,9 +1,8 @@
 % Fado Alberto
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
-\version "2.12.3"
-
-\include "portugues.ly"
+\version "2.19.36"
+\language portugues
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Melody
