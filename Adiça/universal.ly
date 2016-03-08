@@ -48,27 +48,11 @@ GuideA = \notemode {
 }
 
 SymbolsA = \lyricmode {
-  \markup \typewriter \medium "I"
-  \markup \typewriter \medium "ii"
-  \markup \typewriter \medium "V7"
-  \markup \typewriter \medium "I"
-
-  \markup \typewriter \medium "I"
-  \markup \typewriter \medium "ii"
-  \markup \typewriter \medium "V7"
-  \markup \typewriter \medium "I"
-
-  \markup \typewriter \medium "I"
-  \markup \typewriter \medium "V7"
-  \markup \typewriter \medium "I"
-
-  \markup \typewriter \medium "I"
-  \markup \typewriter \medium "V7"
-  \markup \typewriter \medium "I"
-
-  \markup \typewriter \medium "I"
-  \markup \typewriter \medium "V7"
-  \markup \typewriter \medium "I"
+  "I" "ii" "V7" "I"
+  "I" "ii" "V7" "I"
+  "I" "V7"      "I"
+  "I" "V7"      "I"
+                "I" "V7" "I"
 }
 
 % Score
