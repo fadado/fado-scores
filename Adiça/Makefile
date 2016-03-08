@@ -5,6 +5,8 @@
 
 include ../makefile.mak
 
-# Warning: if harmony.ily changes guitar-harmony.ily must be touched
+# If harmony.ily changes guitar-harmony.ily must be touched
+guitar-harmony.ily : harmony.ily
+	touch $@
 
 # vim:noet:sw=8:ts=8:ai
