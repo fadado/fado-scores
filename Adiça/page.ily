@@ -32,7 +32,7 @@ Stave = {
   \time 4/4
 }
 
-Tablature = {
+ˉTablature = {
   \clef tab
   \key do \major
   \numericTimeSignature

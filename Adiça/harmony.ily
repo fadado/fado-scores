@@ -8,7 +8,7 @@
 % Basic harmony
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Harmony = \chordmode {
+ˉHarmony = \chordmode {
   \set chordChanges = ##t
   s1
   \repeat volta 2 {
