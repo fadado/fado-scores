@@ -8,7 +8,7 @@
 % Melody
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-ˉMelody = \relative do'' {
+ⱵMelody = \relative do'' {
   s1
   \repeat volta 2 {
     \set Score.currentBarNumber = #1
@@ -24,7 +24,7 @@
 }
 
 % Desired measures for line
-ˉBreaks = \notemode {
+ⱵBreaks = \notemode {
   s1
   \repeat volta 2 {
     s1 * 4 \break

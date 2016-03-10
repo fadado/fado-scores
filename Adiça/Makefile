@@ -9,6 +9,6 @@ include ../makefile.mak
 guitar-harmony.ily : harmony.ily
 	touch $@
 
-# ʹ ʺ ˈ ˉ Ξ
+# ʹ ʺ ˈ ˉ Ξ Ⱶ
 
 # vim:noet:sw=8:ts=8:ai

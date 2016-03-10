@@ -24,12 +24,12 @@
       \new Voice {
 	\Stave
 	s1 * 3
-	\ˉMelody
+	\ⱵMelody
       }
     }
     \new ChordNames {
       s1 * 3
-      \ˉHarmony
+      \ⱵHarmony
     }
     \new Staff \with {
       \consists "Span_arpeggio_engraver"
@@ -39,11 +39,11 @@
       \clef "treble_8"
       \new Voice {
 	\voiceOne
-	\ˉChords
+	\ⱵChords
       }
       \new Voice {
 	\voiceTwo
-	\ˉBass
+	\ⱵBass
       }
     >>
   >>

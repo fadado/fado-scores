@@ -11,7 +11,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Desired measures for line
-ˉBreaks = \notemode {
+ⱵBreaks = \notemode {
   \repeat volta 2 {
     s1 * 4 \break
     s1 * 4 \break
@@ -25,7 +25,7 @@
 }
 
 % Strumming rhythms
-ˉStrumming = \relative do' {
+ⱵStrumming = \relative do' {
   \repeat volta 2 {
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
@@ -39,7 +39,7 @@
 }
 
 % Pseudo lyrics
-ˉGuide_A = \notemode {
+ⱵGuide_A = \notemode {
   do1 do1 do1 do1
   do1 do1 do1 do1
   do1 do1 s1 do1
@@ -47,7 +47,7 @@
   do2 do2 do1
 }
 
-ˉSymbols_A = \lyricmode {
+ⱵSymbols_A = \lyricmode {
   "I" "ii" "V7" "I"
   "I" "ii" "V7" "I"
   "I" "V7"      "I"
@@ -64,22 +64,22 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ˉGuide_A
+    \new Devnull = "guide" \ⱵGuide_A
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ˉSymbols_A
+	\ⱵSymbols_A
     }
     \new RhythmicStaff <<
       \Stave
-      \new Voice \ˉBreaks
+      \new Voice \ⱵBreaks
       \new Voice \with {
 	\consists Pitch_squash_engraver
       } {
 	\improvisationOn
-	\ˉStrumming
+	\ⱵStrumming
       }
     >>
   }

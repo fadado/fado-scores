@@ -25,20 +25,20 @@
   \simultaneous {
     \new ChordNames {
       s1 * 3
-      \ˉHarmony
+      \ⱵHarmony
       %\italianChords \Harmony
     }
     \new FretBoards {
       s1 * 3
-      \ˉHarmony
+      \ⱵHarmony
     }
     \new TabStaff \with {
       %\consists "Volta_engraver"
     } {
-      \ˉTablature
+      \ⱵTablature
       s1 * 3
       \transpose do' do {
-	\ˉMelody
+	\ⱵMelody
       }
     }
     \new TabStaff \with {
@@ -46,15 +46,15 @@
       \consists "Span_arpeggio_engraver"
     } <<
       \set Staff.connectArpeggios = ##t
-      \ˉTablature
+      \ⱵTablature
       s1 * 3
       \new TabVoice {
 	\voiceOne
-	\ˉChords
+	\ⱵChords
       }
       \new TabVoice {
 	\voiceTwo
-	\ˉBass
+	\ⱵBass
       }
     >>
   }

@@ -8,7 +8,7 @@
 % Classical guitar music bass and chords
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-ˉBass = \relative do {
+ⱵBass = \relative do {
   s1 | fa4 r4 sol2 | si4.\arpeggio r8 fa4 r4 | mi sol, la si |
   \repeat volta 2 {
     do2 mi | re la4 lab | sol2 si | do mi,4 sol |
@@ -22,7 +22,7 @@
   }
 }
 
-ˉChords = \relative do' {
+ⱵChords = \relative do' {
   s4 mi8 sol do mi do re |
   <si, re la'>4 <si fa' sol>4~ <si fa' sol> <si fa' sol>4 |
   <fa' sol re'>4.\arpeggio si8 <si, re sol>4 la'8 si 
