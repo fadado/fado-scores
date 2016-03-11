@@ -1,7 +1,7 @@
 % Fado Alberto
 % Engraved by Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 
-\version "2.16.2"
+\version "2.19.36"
 
 \include "page.ily"
 \include "melody.ily"
@@ -22,28 +22,28 @@
   \new StaffGroup <<
     \new Staff {
       \new Voice {
-	\Stave
+	\ⱵStave
 	s1 * 2
-	\Melody
+	\ⱵMelody
       }
     }
     \new ChordNames {
       s1 * 2
-      \Harmony
+      \ⱵHarmony
     }
     \new Staff \with {
       \consists "Span_arpeggio_engraver"
     } <<
       \set Staff.connectArpeggios = ##t
-      \Stave
+      \ⱵStave
       \clef "treble_8"
       \new Voice {
 	\voiceOne
-	\Chords
+	\ⱵChords
       }
       \new Voice {
 	\voiceTwo
-	\Bass
+	\ⱵBass
       }
     >>
   >>

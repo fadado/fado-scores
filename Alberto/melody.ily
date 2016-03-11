@@ -8,7 +8,7 @@
 % Melody
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-Melody = \relative reb' {
+ⱵMelody = \relative reb' {
   %\partial 8 fa8 |
   s2 s4 s8 fa8
   \repeat volta 2 {
@@ -32,7 +32,7 @@ Melody = \relative reb' {
 }
 
 % Desired measures for line
-Breaks = \notemode {
+ⱵBreaks = \notemode {
   s1
   \repeat volta 2 {
     s1 * 4 \break
