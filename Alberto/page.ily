@@ -25,14 +25,14 @@
   tagline = ##f
 }
 
-ⱵStave = {
+MːStave = {
   \clef treble
   \key fa \minor
   \numericTimeSignature
   \time 4/4
 }
 
-ⱵTablature = {
+MːTablature = {
   \clef tab
   \key fa \minor
   \numericTimeSignature

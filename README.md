@@ -1,7 +1,7 @@
 Fado scores
 ===========
 
-Scores for traditional fados.
+Scores for portuguese fados.
 
 Lilypond versions in several formats are presented for each fado: lead
 sheet, guitar arrangement (also in tablature notation) and rhytmic staff
@@ -15,6 +15,6 @@ Fados
 
 Completed fados:
 
-1. [Fado Adiça](Scores/Adiça)
-1. [Fado Alberto](Scores/Alberto)
+1. [Fado Adiça](Adiça)
+1. [Fado Alberto](Alberto)
 

@@ -22,28 +22,28 @@
   \new StaffGroup <<
     \new Staff {
       \new Voice {
-	\ⱵStave
+	\MːStave
 	s1 * 2
-	\ⱵMelody
+	\MːMelody
       }
     }
     \new ChordNames {
       s1 * 2
-      \ⱵHarmony
+      \MːHarmony
     }
     \new Staff \with {
       \consists "Span_arpeggio_engraver"
     } <<
       \set Staff.connectArpeggios = ##t
-      \ⱵStave
+      \MːStave
       \clef "treble_8"
       \new Voice {
 	\voiceOne
-	\ⱵChords
+	\MːChords
       }
       \new Voice {
 	\voiceTwo
-	\ⱵBass
+	\MːBass
       }
     >>
   >>

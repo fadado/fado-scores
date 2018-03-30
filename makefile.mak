@@ -3,7 +3,7 @@
 # Joan Josep Ordinas Rosa <jordinas@gmail.com> 
 #
 
-# ʹ ʺ ˈ ˉ Ξ Ⱶ ᴖ ᴗ
+# ː ߺ ʹ ʺ ˈ ˉ Ⱶ
 
 .SILENT:
 .PHONY: all clean build

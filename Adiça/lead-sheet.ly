@@ -19,14 +19,14 @@
 \score {
   \simultaneous {
     \new ChordNames {
-      \ⱵHarmony
+      \MːHarmony
     }
     \new Staff \with {
     } <<
-      \Stave
-      \new Voice \ⱵBreaks
+      \MːStave
+      \new Voice \MːBreaks
       \new Voice {
-	\ⱵMelody
+	\MːMelody
       }
     >>
   }

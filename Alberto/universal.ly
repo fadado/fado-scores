@@ -11,7 +11,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Desired measures for line
-ⱵBreaks = \notemode {
+MːBreaks = \notemode {
   \repeat volta 2 {
     s1 * 4 \break
     s1 * 4 \break
@@ -24,7 +24,7 @@
 }
 
 % Strumming rhythms
-ⱵStrumming = \relative do' {
+MːStrumming = \relative do' {
   \repeat volta 2 {
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
     do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 | do4 do4 do4 do4 |
@@ -37,28 +37,28 @@
 }
 
 % Pseudo lyrics
-ⱵGuideʹA = \notemode {
+MːGuideʹA = \notemode {
   do1 do1 s1 do1
   do1 do1 do1 do1
   do1 do1 s1 do1
   do4 do4 do2
 }
 
-ⱵSymbolsʹA = \lyricmode {
+MːSymbolsʹA = \lyricmode {
   "i"  "V7"        "i"
   "I7" "iv" "VII7" "III"
   "VI" "V7"        "i"
                    "i" "V7" "i"
 }
 
-ⱵGuideʹB = \notemode {
+MːGuideʹB = \notemode {
   do2. do4 do1 s1 do1
   do1 do1 do2 do2 do1
   do2. do4 do2. do4 do4 do4 do2 do1
   do4 do4 do2
 }
 
-ⱵSymbolsʹB = \lyricmode {
+MːSymbolsʹB = \lyricmode {
   "i" "VI"   "V7"                         "i"
   "I7"       "iv" "VII7" "VII7b"          "III"
   "VI" "II%" "V7" "ii*7" "VI9" "ii%" "V7" "i"
@@ -74,22 +74,22 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ⱵGuideʹA
+    \new Devnull = "guide" \MːGuideʹA
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ⱵSymbolsʹA
+	\MːSymbolsʹA
     }
     \new RhythmicStaff <<
-      \ⱵStave
-      \new Voice \ⱵBreaks
+      \MːStave
+      \new Voice \MːBreaks
       \new Voice \with {
 	\consists Pitch_squash_engraver
       } {
 	\improvisationOn
-	\ⱵStrumming
+	\MːStrumming
       }
     >>
   }
@@ -102,22 +102,22 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ⱵGuideʹB
+    \new Devnull = "guide" \MːGuideʹB
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ⱵSymbolsʹB
+	\MːSymbolsʹB
     }
     \new RhythmicStaff <<
-      \ⱵStave
-      \new Voice \ⱵBreaks
+      \MːStave
+      \new Voice \MːBreaks
       \new Voice \with {
 	\consists Pitch_squash_engraver
       } {
 	\improvisationOn
-	\ⱵStrumming
+	\MːStrumming
       }
     >>
   }

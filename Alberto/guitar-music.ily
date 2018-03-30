@@ -8,7 +8,7 @@
 % Classical guitar music bass and chords
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-ⱵBass = \relative reb {
+MːBass = \relative reb {
   do4 mi,8 sol do4 sol |
   reb'4 sol,4 do sol8 do |
   fa,8 fa' do lab fa do'8[ re mi] |
@@ -33,7 +33,7 @@
   }
 }
 
-ⱵChords = \relative reb {
+MːChords = \relative reb {
   r8 <mi sib' do>~ <mi sib' do>4 r8 <mi sib' do> r8 <fab sib reb>
   r8 <fa dob' mib> r8 <fa sib reb> r8 <mi sib' do> r8 <mi sib' do>
   r8 <fa lab do fa>8~ <fa lab do fa>4 <lab do fa>8 r8 r4 
