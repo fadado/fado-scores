@@ -85,10 +85,12 @@ i∆   iiø   III∆   iv⁷   V⁷   VI∆   VII⁷
 |`VI3*`	|d3d5d7	|Double diminished (linear 4/2)	|VI⁷/5 (variant)
 |`I6`	|M3P5M6	|Major 6th		|I⁶
 |`ii6`	|m3P5M6	|Minor 6th		|ii⁶
+|`ii6−`	|m3P5m6	|Minor minor 6th		|ii⁶
 |`I>4`	|P4P5	|Suspended 4th		|Vsus⁴
 |`V7>4`	|P4P5m7	|Dominant suspended 4th	|V⁷sus⁴
 |`V>46`	|P4M6	|Cadential 6/4 		|Ic (variant)
-|`V7>6`	|M3m6m7	|Suspended 6th		|V⁷♯⁵ (variant)
+|`V7>6−`	|M3m6m7	|Suspended 6th		|V⁷♯⁵ (variant)
+|`ii7<4`	|m3P4m7	|Minor 7th suspended 4th	|ii¹¹ (variant)
 
 <!--
 |`V9 (V7&9)`	|M3P5M9	|Added 9th		|

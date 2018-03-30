@@ -39,7 +39,7 @@
 }
 
 % Pseudo lyrics
-ⱵGuide_A = \notemode {
+ⱵGuideˈA = \notemode {
   do1 do1 do1 do1
   do1 do1 do1 do1
   do1 do1 s1 do1
@@ -47,7 +47,7 @@
   do2 do2 do1
 }
 
-ⱵSymbols_A = \lyricmode {
+ⱵSymbolsˈA = \lyricmode {
   "I" "ii" "V7" "I"
   "I" "ii" "V7" "I"
   "I" "V7"      "I"
@@ -64,13 +64,13 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ⱵGuide_A
+    \new Devnull = "guide" \ⱵGuideˈA
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ⱵSymbols_A
+	\ⱵSymbolsˈA
     }
     \new RhythmicStaff <<
       \Stave

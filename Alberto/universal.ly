@@ -37,28 +37,28 @@
 }
 
 % Pseudo lyrics
-ⱵGuide_A = \notemode {
+ⱵGuideʹA = \notemode {
   do1 do1 s1 do1
   do1 do1 do1 do1
   do1 do1 s1 do1
   do4 do4 do2
 }
 
-ⱵSymbols_A = \lyricmode {
+ⱵSymbolsʹA = \lyricmode {
   "i"  "V7"        "i"
   "I7" "iv" "VII7" "III"
   "VI" "V7"        "i"
                    "i" "V7" "i"
 }
 
-ⱵGuide_B = \notemode {
+ⱵGuideʹB = \notemode {
   do2. do4 do1 s1 do1
   do1 do1 do2 do2 do1
   do2. do4 do2. do4 do4 do4 do2 do1
   do4 do4 do2
 }
 
-ⱵSymbols_B = \lyricmode {
+ⱵSymbolsʹB = \lyricmode {
   "i" "VI"   "V7"                         "i"
   "I7"       "iv" "VII7" "VII7b"          "III"
   "VI" "II%" "V7" "ii*7" "VI9" "ii%" "V7" "i"
@@ -74,13 +74,13 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ⱵGuide_A
+    \new Devnull = "guide" \ⱵGuideʹA
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ⱵSymbols_A
+	\ⱵSymbolsʹA
     }
     \new RhythmicStaff <<
       \ⱵStave
@@ -102,13 +102,13 @@
 
 \score {
   \simultaneous {
-    \new Devnull = "guide" \ⱵGuide_B
+    \new Devnull = "guide" \ⱵGuideʹB
     \new Lyrics \with {
       \override VerticalAxisGroup #'minimum-Y-extent = #'(-1.2 . 1)
       }
       \lyricsto "guide" {
 	\set fontSize = #-2
-	\ⱵSymbols_B
+	\ⱵSymbolsʹB
     }
     \new RhythmicStaff <<
       \ⱵStave
