@@ -13,18 +13,18 @@
 ########################################################################
 
 # Build targets
-SCORES =	universal.pdf \
-		lead-sheet.pdf \
-		guitar.pdf \
-		tablature-guitar.pdf \
+SCORES =	universal.pdf		\
+		lead-sheet.pdf		\
+		guitar.pdf		\
+		tablature-guitar.pdf	\
 
 # Options to lilypond
 #   log levels: NONE, ERROR, WARNING, BASIC, PROGRESS, INFO, DEBUG
-OPTIONS =	--define-default=no-point-and-click \
-		--define-default=delete-intermediate-files \
-		--define-default=relative-includes \
-		--pdf \
-		--loglevel=BASIC \
+OPTIONS =	--define-default=no-point-and-click		\
+		--define-default=delete-intermediate-files	\
+		--define-default=relative-includes		\
+		--pdf						\
+		--loglevel=BASIC
 
 ########################################################################
 # Pattern rules
@@ -42,24 +42,24 @@ all: $(SCORES)
 
 # Dependencies for each score
 
-universal.pdf: ${@:pdf=ly} \
+universal.pdf: ${@:pdf=ly}	\
 	page.ily
 
-lead-sheet.pdf: ${@:pdf=ly} \
-	page.ily \
-	melody.ily \
+lead-sheet.pdf: ${@:pdf=ly}	\
+	page.ily		\
+	melody.ily		\
 	harmony.ily
 
-guitar.pdf: ${@:pdf=ly} \
-	page.ily \
-	melody.ily \
-	guitar-music.ily \
+guitar.pdf: ${@:pdf=ly}		\
+	page.ily		\
+	melody.ily		\
+	guitar-music.ily	\
 	guitar-harmony.ily
 
 tablature-guitar.pdf: ${@:pdf=ly} \
-	page.ily \
-	melody.ily \
-	guitar-music.ily \
+	page.ily		\
+	melody.ily		\
+	guitar-music.ily	\
 	guitar-harmony.ily
 
 ########################################################################

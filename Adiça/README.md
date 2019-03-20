@@ -19,7 +19,7 @@ Author
 
 ## Chord progression
 
-```
+```none
 2/4 M
 [ I    | ii    | V7     | I        ]
 [ I    | ii    | V7     | I        ]

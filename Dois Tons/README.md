@@ -21,7 +21,7 @@ Author
 
 ### Basic
 
-```
+```none
 2/2 m
 [ III       | VII7b     | VII7c   | III               ]
 [ III       | VII7b     | VII7c   | III VI6   V7   /  ]
@@ -32,7 +32,7 @@ Author
 
 ### Variation
 
-```
+```none
 2/2 m
 [ III       | VII7      |    /    | III               ]
 [ III       | VII7      |    /    | III VI6   V7   /  ]

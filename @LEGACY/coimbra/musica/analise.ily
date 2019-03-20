@@ -35,7 +35,7 @@ Analise = \lyricmode {
   \markup \typewriter \medium i^
   \markup \typewriter \medium i7
   \markup \typewriter \medium i6
-  \markup \typewriter \medium i6−
+  \markup \typewriter \medium i6m
   \markup \typewriter \medium i
   \markup \typewriter \medium VIc
   \markup \typewriter \medium V7
@@ -91,7 +91,7 @@ AnaliseSimples = \lyricmode {
   \markup \typewriter \medium i^
   \markup \typewriter \medium i7
   \markup \typewriter \medium i6
-  \markup \typewriter \medium VI^b
+  \markup \typewriter \medium i6m
   \markup \typewriter \medium i
   \markup \typewriter \medium VI
   \markup \typewriter \medium V7
@@ -103,7 +103,7 @@ AnaliseSimples = \lyricmode {
   \markup \typewriter \medium i^
   \markup \typewriter \medium i7
   \markup \typewriter \medium i6
-  \markup \typewriter \medium VI^b
+  \markup \typewriter \medium i6m
   \markup \typewriter \medium i
   \markup \typewriter \medium VI
   \markup \typewriter \medium V7

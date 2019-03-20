@@ -13,7 +13,7 @@ the degree and quality. It is based in the concep of
 The score notation _should_ be clear if you know the basics of music notation.
 Score example from Fado Alberto:
 
-```
+```none
 4/4 m
 [ i             | V7            |       /       | i              ]
 [ I7            | iv            | VII7          | III            ]
@@ -28,7 +28,7 @@ Score example from Fado Alberto:
 
 Major scale in ASCII notation:
 
-```
+```none
 I    ii    iii    IV    V    vi    vii*
 
 I^   ii7   iii7   IV^   V7   vi7   vii%
@@ -36,7 +36,7 @@ I^   ii7   iii7   IV^   V7   vi7   vii%
 
 Major scale using Unicode characters:
 
-```
+```none
 I    ii    iii    IV    V    vi    vii°
 
 I∆   ii⁷   iii⁷   IV∆   V⁷   vi⁷   viiø
@@ -44,7 +44,7 @@ I∆   ii⁷   iii⁷   IV∆   V⁷   vi⁷   viiø
 
 Minor scale in ASCII notation:
 
-```
+```none
 i    ii*   III    iv    V    VI    VII
            III+                   #vii*
 
@@ -54,7 +54,7 @@ i^   ii%   III^   iv7   V7   VI^   VII7
 
 Minor scale using Unicode characters:
 
-```
+```none
 i    ii°   III    iv    V    VI    VII
            III+                   ♯vii°
 

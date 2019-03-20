@@ -23,7 +23,7 @@ Author
 
 ### Basic
 
-```
+```none
 2/4 m
 [ i     |     /     | V7   |  /  |     /   |    /   | i     |    /   ]
 [ i     |     /     | V7   |  /  |     /   |    /   | i     | I7     ]
@@ -34,7 +34,7 @@ Author
 
 ### Variation
 
-```
+```none
 2/4 m
 [ i     |     /     | V7   |  /  |     /      |    /  | i     |    /   ]
 [ i     |     /     | V7   |  /  |     /      |    /  | i     | I7b    ]
